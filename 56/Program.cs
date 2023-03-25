@@ -7,7 +7,6 @@ int[,] array = new int[mass, mass];
 GetArray(array);
 PrintArray(array);
 
-
 void GetArray(int[,] array)
 {
     for (int i = 0; i < array.GetLength(0); i++)
@@ -18,8 +17,6 @@ void GetArray(int[,] array)
         }
     }
 }
-
-
 
 int minSumLine = 0;
 int sumLine = SumLineElements(array, 0);
@@ -34,7 +31,6 @@ for (int i = 1; i < array.GetLength(0); i++)
 }
 
 Console.WriteLine($"{minSumLine + 1} - the row with the smallest sum of elements ({sumLine})");
-
 
 int SumLineElements(int[,] array, int i)
 {
@@ -52,7 +48,6 @@ int InputNumbers(string input)
     int output = Convert.ToInt32(Console.ReadLine());
     return output;
 }
-
 
 void PrintArray(int[,] array)
 {
