@@ -1,0 +1,15 @@
+/Users/polinagalkina/Desktop/sem8/54/obj/Debug/net6.0/54.csproj.AssemblyReference.cache
+/Users/polinagalkina/Desktop/sem8/54/obj/Debug/net6.0/54.GeneratedMSBuildEditorConfig.editorconfig
+/Users/polinagalkina/Desktop/sem8/54/obj/Debug/net6.0/54.AssemblyInfoInputs.cache
+/Users/polinagalkina/Desktop/sem8/54/obj/Debug/net6.0/54.AssemblyInfo.cs
+/Users/polinagalkina/Desktop/sem8/54/obj/Debug/net6.0/54.csproj.CoreCompileInputs.cache
+/Users/polinagalkina/Desktop/sem8/54/bin/Debug/net6.0/54
+/Users/polinagalkina/Desktop/sem8/54/bin/Debug/net6.0/54.deps.json
+/Users/polinagalkina/Desktop/sem8/54/bin/Debug/net6.0/54.runtimeconfig.json
+/Users/polinagalkina/Desktop/sem8/54/bin/Debug/net6.0/54.dll
+/Users/polinagalkina/Desktop/sem8/54/bin/Debug/net6.0/54.pdb
+/Users/polinagalkina/Desktop/sem8/54/obj/Debug/net6.0/54.dll
+/Users/polinagalkina/Desktop/sem8/54/obj/Debug/net6.0/refint/54.dll
+/Users/polinagalkina/Desktop/sem8/54/obj/Debug/net6.0/54.pdb
+/Users/polinagalkina/Desktop/sem8/54/obj/Debug/net6.0/54.genruntimeconfig.cache
+/Users/polinagalkina/Desktop/sem8/54/obj/Debug/net6.0/ref/54.dll

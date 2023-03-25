@@ -1,5 +1,6 @@
-﻿// Задайте прямоугольный двумерный массив. Напишите программу, которая будет находить строку с наименьшей суммой элементов.
-Console.Clear();
+﻿// Задача 54: Задайте двумерный массив. Напишите программу, которая упорядочит по убыванию элементы каждой строки двумерного массива.
+
+Console.Clear(); 
  
     Console.WriteLine("Enter the size of the array."); 
     Console.WriteLine("Enter the number of rows:"); 
@@ -9,35 +10,36 @@ Console.Clear();
     
     int[,] array = new int[number_rows, number_columns]; 
     GetArray(array); 
-    PrintArray(array); 
+    PrintArray(array);
+    Console.WriteLine(); 
     
+   SortEachRow(array);
+    PrintArray(array);  
     
-    int minSumLine = 0; 
-    int sumLine = SumLineElements(array, 0); 
-    for (int i = 1; i < number_rows; i++) 
-    { 
-        int tempSumLine = SumLineElements(array, i); 
-        if (sumLine > tempSumLine) 
-        { 
-            sumLine = tempSumLine; 
-            minSumLine = i; 
-        } 
+   void SortEachRow(int[,] array)
+    {
+        int n=array.GetLength(1);
+
+        for (int i = 0; i < array.GetLength(0); i++) 
+        {
+            for(int j=0; j<n; j++)
+            {
+                for (int k=0; k<n-1-j; k++)  
+                {  
+                    if (array[i, k] < array[i, k + 1])
+                    {
+                    int temp = array[i, k + 1];
+                    array[i, k + 1] = array[i, k];
+                    array[i, k] = temp;
+                    }
+                }
+
+            }
+
+        }
+        
     } 
-    
-    Console.WriteLine($"{minSumLine + 1} - the row with the smallest sum of the elements ({sumLine})"); 
-     
   
-    int SumLineElements(int[,] array, int i) 
-    { 
-        int sumLine = array[i, 0]; 
-        for (int j = 1; j < array.GetLength(1); j++) 
-        { 
-            sumLine += array[i, j]; 
-        } 
-        return sumLine; 
-    } 
-     
-     
      
     void GetArray(int[,] array) 
     { 
