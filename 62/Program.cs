@@ -16,8 +16,6 @@ int number = 1000;
 int nx = n;
 int coordinate = 0;
 
-FillTheBorder(array, coordinate, nx, number);
-
 while (nx > 0)
 {
 
